@@ -65,7 +65,12 @@
   width: calc((100% / 12) * 12);
 }
 
-.line5{
-  border: 2px solid white;
-  background: pink;
+.container .container [class*="col-"] {
+    background: salmon;
+    border: 3px solid white;
+    height: 148px;;
+}
+
+.container .container{
+  margin: 2px;
 }
